@@ -75,7 +75,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-center">
-          <img src="/src/assets/footer-logo.png" className="w-16" alt="Logo" />
+          <img src="./src/assets/footer-logo.png" className="w-16" alt="Logo" />
 
           <div className="mt-6 flex space-x-6 text-gray-400">
             <a href="#" className="hover:text-white transition"><FaFacebookF size={20} /></a>

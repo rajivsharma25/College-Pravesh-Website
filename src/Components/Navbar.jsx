@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <div className="relative py-3 flex justify-between items-center px-4">
-      {/* Hamburger Icon */}
+    
       <div className="lg:hidden">
         <IoReorderThreeOutline
           onClick={() => setVisible(true)}
@@ -27,10 +27,9 @@ const Navbar = () => {
         />
       </div>
 
-      {/* Logo - Center it on smaller screens */}
       <img
         src="./src/assets/logo.png"
-        className="w-[250px] lg:w-[250px] mx-auto lg:mx-0" // Add mx-auto to center logo on small screens
+        className="w-[250px] lg:w-[250px] mx-auto lg:mx-0" 
         alt="Logo"
       />
 
