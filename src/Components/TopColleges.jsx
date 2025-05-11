@@ -1,17 +1,18 @@
 import React, { useRef, useState, useEffect } from "react";
 import { MdArrowForwardIos, MdArrowBackIos } from "react-icons/md";
+import { assets } from "../assets/assets";
 
 const TopColleges = () => {
     const colleges = [
-        { title: "IIT BOMBAY", img: "./src/assets/iit_bombay.webp" },
-        { title: "IIT DELHI", img: "./src/assets/iit_delhi.jpg" },
-        { title: "IIT (BHU) VANARASI", img: "./src/assets/iit_bhu.webp" },
-        { title: "NIT WARANGAL", img: "./src/assets/nit_warangal.webp" },
-        { title: "IISC BANGALORE", img: "./src/assets/iisc.webp" },
-        { title: "DTU DELHI", img: "./src/assets/dtu.webp" },
-        { title: "BIT MESRA", img: "./src/assets/bit_mesra.webp" },
-        { title: "NIT TIRUCHIRAPPALLI", img: "./src/assets/nit_tir.webp" },
-        { title: "IIIT ALLAHABAD", img: "./src/assets/iiit_allahabad.webp" },
+        { title: "IIT BOMBAY", img: assets.iit_bombay },
+        { title: "IIT DELHI", img: assets.iit_delhi },
+        { title: "IIT (BHU) VANARASI", img: assets.iit_bhu },
+        { title: "NIT WARANGAL", img: assets.nit_warangal },
+        { title: "IISC BANGALORE", img: assets.iisc },
+        { title: "DTU DELHI", img: assets.dtu },
+        { title: "BIT MESRA", img: assets.bit_mesra },
+        { title: "NIT TIRUCHIRAPPALLI", img: assets.nit_tir },
+        { title: "IIIT ALLAHABAD", img: assets.iiit_allahabad },
     ];
 
     const scrollRef = useRef(null);

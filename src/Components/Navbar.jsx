@@ -4,6 +4,7 @@ import { IoReorderThreeOutline } from 'react-icons/io5';
 import { RxCross2 } from 'react-icons/rx';
 import { FiSearch } from "react-icons/fi";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { assets } from '../assets/assets';
 
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
@@ -28,7 +29,7 @@ const Navbar = () => {
       </div>
 
       <img
-        src="./src/assets/logo.png"
+        src={assets.logo}
         className="w-[250px] lg:w-[250px] mx-auto lg:mx-0" 
         alt="Logo"
       />

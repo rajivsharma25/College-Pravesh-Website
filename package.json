@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://rajivsharma25.github.io/College-Pravesh-Landing-Page/",
+  "homepage": "https://rajivsharma25.github.io/College-Pravesh-Website",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
