@@ -65,12 +65,12 @@ const TopColleges = () => {
                 {/* Scrollable Container */}
                 <div
                     ref={scrollRef}
-                    className="flex gap-3 sm:gap-4 mx-8 sm:mx-16 overflow-x-auto space-x-4 p-4 scrollbar-hide"
+                    className="flex gap-3 sm:gap-4 mx-10 sm:mx-16 overflow-x-auto space-x-4 p-4 scrollbar-hide"
                 >
                     {colleges.map((college, index) => (
                         <div
                             key={index}
-                            className="flex-shrink-0 w-[300px] md:w-[430px] border rounded-md"
+                            className="flex-shrink-0 w-[285px] md:w-[430px] border rounded-md"
                         >
                             <img
                                 src={college.img}
@@ -97,7 +97,7 @@ const TopColleges = () => {
                 <button
                     onClick={() => scroll("right")}
                     disabled={isAtEnd}
-                    className={`absolute right-0 top-1/2 -translate-y-1/2 p-2 z-10 bg-transparent transition-opacity ${isAtEnd ? "opacity-30 pointer-events-none" : "opacity-100 hover:opacity-80"
+                    className={`absolute -right-2 top-1/2 -translate-y-1/2 p-2 z-10 bg-transparent transition-opacity ${isAtEnd ? "opacity-30 pointer-events-none" : "opacity-100 hover:opacity-80"
                         }`}
                 >
                     <MdArrowForwardIos className="text-4xl md:text-5xl text-red-500" />

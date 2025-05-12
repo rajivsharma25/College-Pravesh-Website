@@ -9,7 +9,7 @@ const Updates = () => {
             <h2 className='text-2xl sm:text-[30px]'>KEEP YOURSELF UPDATED</h2>
             <hr className='bg-red-700 w-16 h-[3px]' />
         </div>
-        <div className='mt-10 w-full px-10 md:px-20 mb-16'>
+        <div className='mt-10 w-full px-4 md:px-20 mb-16'>
             <div className="pb-5 flex sm:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 grid-rows-2 gap-5 overflow-x-scroll overflow-y-hidden sm:overflow-hidden h-64 sm:h-full">
 
                 <div className="aspect-[3/2] sm:w-full h-60 col-span-1 sm:col-span-2 lg:col-span-2 col-start-1 bg-[#FAFAFA] shadow-lg p-2">
